@@ -7,7 +7,6 @@ const errorsContainer = document.querySelector(".errors");
 const errorsList = document.querySelector(".errors-list");
 
 function handleSubmit(e) {
-  e.preventDefault();
   const errorMessages = [];
   clearErrors();
 
